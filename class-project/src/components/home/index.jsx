@@ -35,7 +35,7 @@ function ProductList() {
   }, []);
 
   const fetchProductData = async () => {
-    var productsResponse = await fetch("http://localhost:3001/products");
+    var productsResponse = await fetch("http://localhost:80/products");
     var productsList = await productsResponse.json();
 
     console.log("The products list is: ", productsList);

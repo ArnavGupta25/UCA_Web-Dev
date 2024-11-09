@@ -1,14 +1,18 @@
-HOOKS CAN ONLY BE USED AT THE TOP LEVEL OF THE COMPONENT
+-> HOOKS CAN ONLY BE USED AT THE TOP LEVEL OF THE COMPONENT
 // (i.e., not inside a function or method).
 
-HOOK FUNCTION CAN INTERNAL CALL OTHER IBUILT HOOKS
+-> HOOK FUNCTION CAN INTERNAL CALL OTHER IBUILT HOOKS
 
 
-Normal functions can be called anywhere
-normal functions cannot call hooks
+-> Normal functions can be called anywhere
+-> normal functions cannot call hooks
 
 
-preflight request- additonal request sent by browser to check if backend server supports the put post get delete request 
-name is optionrequest
+-> preflight request- additonal request sent by browser to check if backend server supports the put post get delete request
+-> name is optionrequest
 // it is security convention of http
 // it is not a standard request
+
+
+-> require vs import
+-> res.send() vs res.end()
